@@ -19,6 +19,7 @@
 		CBDF8AF41E20548A00B951DF /* Button_start.png in Resources */ = {isa = PBXBuildFile; fileRef = CBDF8AF31E20548A00B951DF /* Button_start.png */; };
 		CBDF8AF61E20550300B951DF /* title.png in Resources */ = {isa = PBXBuildFile; fileRef = CBDF8AF51E20550300B951DF /* title.png */; };
 		CBDF8AF81E20596200B951DF /* stop.png in Resources */ = {isa = PBXBuildFile; fileRef = CBDF8AF71E20596200B951DF /* stop.png */; };
+		F4493C9E1E25247200384334 /* RunningViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4493C9D1E25247200384334 /* RunningViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		CBDF8AF31E20548A00B951DF /* Button_start.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Button_start.png; sourceTree = "<group>"; };
 		CBDF8AF51E20550300B951DF /* title.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = title.png; sourceTree = "<group>"; };
 		CBDF8AF71E20596200B951DF /* stop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stop.png; sourceTree = "<group>"; };
+		F4493C9D1E25247200384334 /* RunningViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RunningViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 				CBDF8AC11E1E842800B951DF /* AppDelegate.swift */,
 				CBDF8AC31E1E842800B951DF /* ViewController.swift */,
 				CBDF8AC51E1E842800B951DF /* Main.storyboard */,
+				F4493C9D1E25247200384334 /* RunningViewController.swift */,
 				CBDF8AC81E1E842800B951DF /* Assets.xcassets */,
 				CBDF8ACA1E1E842800B951DF /* LaunchScreen.storyboard */,
 				CBDF8ACD1E1E842800B951DF /* Info.plist */,
@@ -208,7 +211,6 @@
 				TargetAttributes = {
 					CBDF8ABD1E1E842800B951DF = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = 8V92QSJ4Z3;
 						ProvisioningStyle = Automatic;
 					};
 					CBDF8AD11E1E842800B951DF = {
@@ -283,6 +285,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CBDF8AC41E1E842800B951DF /* ViewController.swift in Sources */,
+				F4493C9E1E25247200384334 /* RunningViewController.swift in Sources */,
 				CBDF8AC21E1E842800B951DF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -433,7 +436,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 8V92QSJ4Z3;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = TimeIsMoney/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = TwoBeers.TimeIsMoney;
@@ -446,7 +449,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 8V92QSJ4Z3;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = TimeIsMoney/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = TwoBeers.TimeIsMoney;
